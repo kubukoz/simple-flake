@@ -1,1 +1,1 @@
-{ outputs = { self, nixpkgs, ... } : { packages.aarch64-darwin.default = nixpkgs.legacyPackages.aarch64-darwin.hello; } ;}
+{ outputs = { self, nixpkgs, ... } : { packages.aarch64-darwin.default = nixpkgs.legacyPackages.aarch64-darwin.cowsay; } ;}
